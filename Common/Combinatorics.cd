@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Facet.Combinatorics.Combinations&lt;T&gt;">
+    <Position X="6" Y="4" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Facet.Combinatorics.Combinations&lt;T&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Combinations.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAAARAAABAAAARAAAAAAAAAQQAAACAAAAA=</HashCode>
+      <FileName>Combinations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Facet.Combinatorics.CombinatoricsOp">
+    <Position X="6" Y="0.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Facet.Combinatorics.CombinatoricsOp.CombinatoricsOpType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CombinatoricsOp.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>CombinatoricsOp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Facet.Combinatorics.Variations&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="4" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Facet.Combinatorics.Variations&lt;T&gt;.EnumeratorWithRepetition" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Variations.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Facet.Combinatorics.Variations&lt;T&gt;.EnumeratorWithoutRepetition" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Variations.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAAARAAABAAAARAAAAAAAAAQQAAACAAAAA=</HashCode>
+      <FileName>Variations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Facet.Combinatorics.Permutations&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="5.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Facet.Combinatorics.Permutations&lt;T&gt;.Enumerator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Permutations.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Facet.Combinatorics.Permutations&lt;T&gt;.SelfComparer&lt;U&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Permutations.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAARAAAAAAAARAAAAAAAgAQQAAACEAAAA=</HashCode>
+      <FileName>Permutations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Facet.Combinatorics.SmallPrimeUtility">
+    <Position X="10.75" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAAAACAAAAAAgAAAAAAAAEAAgAAAAAAAgAAAA=</HashCode>
+      <FileName>SmallPrimeUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Facet.Combinatorics.IMetaCollection&lt;T&gt;">
+    <Position X="2.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>IMetaCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Facet.Combinatorics.GenerateOption">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAA=</HashCode>
+      <FileName>GenerateOption.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
