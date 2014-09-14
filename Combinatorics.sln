@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinatorics.PCL", "Combin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinatorics.WindowsPhone8", "WindowsPhone8\Combinatorics.WindowsPhone8.csproj", "{2D680BC8-0A3B-4E74-B940-BA86001F3FB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{2FA5D03D-1B39-4C1C-A757-446CD6D8C306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextSumProblemSample", "Samples\TextSumProblemSample\TextSumProblemSample.csproj", "{DA811763-8715-47D0-9EDB-5DBF3B9A581E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,8 +41,19 @@ Global
 		{2D680BC8-0A3B-4E74-B940-BA86001F3FB2}.Release|ARM.Build.0 = Release|ARM
 		{2D680BC8-0A3B-4E74-B940-BA86001F3FB2}.Release|x86.ActiveCfg = Release|x86
 		{2D680BC8-0A3B-4E74-B940-BA86001F3FB2}.Release|x86.Build.0 = Release|x86
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA811763-8715-47D0-9EDB-5DBF3B9A581E} = {2FA5D03D-1B39-4C1C-A757-446CD6D8C306}
 	EndGlobalSection
 EndGlobal
