@@ -8,8 +8,8 @@
     <ProjectGuid>{FBEB70A8-6BBA-4B14-BBBF-EE1C13D03841}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Combinatorics.PCL</RootNamespace>
-    <AssemblyName>Combinatorics.PCL</AssemblyName>
+    <RootNamespace>Combinatorics</RootNamespace>
+    <AssemblyName>Combinatorics</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
