@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Facet.Combinatorics
+namespace Combinatorics
 {
 
   public static class CombinatoricsOp {

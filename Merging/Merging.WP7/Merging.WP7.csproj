@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8EDD8215-B0EF-4C96-909D-20BDCFEF3DC6}</ProjectGuid>
+    <ProjectGuid>{73758FDA-E40D-45D0-B371-BFC2B3B4DFEC}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Combinatorics</RootNamespace>
-    <AssemblyName>Combinatorics</AssemblyName>
+    <RootNamespace>Merging</RootNamespace>
+    <AssemblyName>Merging</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
@@ -49,32 +49,25 @@
     <Reference Include="mscorlib.extensions" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Common\Combinations.cs">
-      <Link>Combinations.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\CombinatoricsOp.cs">
-      <Link>CombinatoricsOp.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\GenerateOption.cs">
-      <Link>GenerateOption.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\IMetaCollection.cs">
-      <Link>IMetaCollection.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\Permutations.cs">
-      <Link>Permutations.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\SmallPrimeUtility.cs">
-      <Link>SmallPrimeUtility.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\Variations.cs">
-      <Link>Variations.cs</Link>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Common\Combinatorics.cd">
-      <Link>Combinatorics.cd</Link>
+    <Content Include="..\Common\MergeEnumerable.vb">
+      <Link>MergeEnumerable.vb</Link>
+    </Content>
+    <Content Include="..\Common\MergeEnumerator.vb">
+      <Link>MergeEnumerator.vb</Link>
+    </Content>
+    <Content Include="..\Common\MergeList.vb">
+      <Link>MergeList.vb</Link>
+    </Content>
+    <Content Include="..\Common\TextUtils.vb">
+      <Link>TextUtils.vb</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\Merging.cd">
+      <Link>Merging.cd</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
