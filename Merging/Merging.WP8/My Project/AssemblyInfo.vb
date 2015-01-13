@@ -13,7 +13,7 @@ Imports System.Resources
 <Assembly: AssemblyConfiguration("")> 
 <Assembly: AssemblyCompany("Zoomicon")> 
 <Assembly: AssemblyProduct("Merging")> 
-<Assembly: AssemblyCopyright("Copyright © Zoomicon 2011-2014")> 
+<Assembly: AssemblyCopyright("Copyright © Zoomicon 2011-2015")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: AssemblyCulture("")> 
 
