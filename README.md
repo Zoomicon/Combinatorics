@@ -1,3 +1,5 @@
+# Combinatorics
+
 Portable library of C# Generics-based classes for enumerating meta-collections representing six major types of combinatorial collections.
 
 For documentation see the related article by Adrian Akison on CodeProject website:
